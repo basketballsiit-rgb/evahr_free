@@ -1,0 +1,354 @@
+/* Theme 1: Sakura (Default) */
+:root {
+  --primary-color: #ff6a88;
+  --secondary-color: #ffb7c5;
+  --bg-light: #fff5f7;
+  --text-dark: #5a3d46;
+  --sidebar-bg: #ffe4e8;
+  --white: #ffffff;
+  --glass-bg: rgba(255, 240, 245, 0.8);
+  --primary-gradient: linear-gradient(135deg, #ff6a88 0%, #ffb7c5 100%);
+  --sidebar-gradient: linear-gradient(180deg, #ffe4e8 0%, #fff5f7 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #ffe4e8 100%);
+
+  --info-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --warning-gradient: linear-gradient(135deg, #f2c94c 0%, #f2994a 100%);
+  --danger-gradient: linear-gradient(135deg, #ff0844 0%, #ffb199 100%);
+  --purple-gradient: linear-gradient(135deg, #b224ef 0%, #7579ff 100%);
+}
+
+/* Theme 2: Mint Breeze */
+[data-theme="mint"] {
+  --primary-color: #1abc9c;
+  --secondary-color: #a8e6cf;
+  --bg-light: #f4fbfa;
+  --text-dark: #2c3e50;
+  --sidebar-bg: #e0f2ec;
+  --glass-bg: rgba(235, 250, 245, 0.8);
+  --primary-gradient: linear-gradient(135deg, #1abc9c 0%, #a8e6cf 100%);
+  --sidebar-gradient: linear-gradient(180deg, #e0f2ec 0%, #f4fbfa 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #e0f2ec 100%);
+
+  --info-gradient: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+  --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --warning-gradient: linear-gradient(135deg, #f2c94c 0%, #f2994a 100%);
+  --danger-gradient: linear-gradient(135deg, #cb2d3e 0%, #ef473a 100%);
+  --purple-gradient: linear-gradient(135deg, #8a2be2 0%, #b224ef 100%);
+}
+
+/* Theme 3: Lavender Dream */
+[data-theme="lavender"] {
+  --primary-color: #9b59b6;
+  --secondary-color: #dcd3ff;
+  --bg-light: #f8f6ff;
+  --text-dark: #4a3b5c;
+  --sidebar-bg: #ede9f6;
+  --glass-bg: rgba(240, 235, 255, 0.8);
+  --primary-gradient: linear-gradient(135deg, #9b59b6 0%, #dcd3ff 100%);
+  --sidebar-gradient: linear-gradient(180deg, #ede9f6 0%, #f8f6ff 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #ede9f6 100%);
+
+  --info-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  --success-gradient: linear-gradient(135deg, #0ba360 0%, #3cba92 100%);
+  --warning-gradient: linear-gradient(135deg, #f2c94c 0%, #f2994a 100%);
+  --danger-gradient: linear-gradient(135deg, #f77062 0%, #fe5196 100%);
+  --purple-gradient: linear-gradient(135deg, #db36a4 0%, #f7ff00 100%);
+}
+
+/* Theme 4: Peach Sunrise */
+[data-theme="peach"] {
+  --primary-color: #ff8c6b;
+  --secondary-color: #ffd3b6;
+  --bg-light: #fff9f5;
+  --text-dark: #5c433b;
+  --sidebar-bg: #ffefe6;
+  --glass-bg: rgba(255, 245, 240, 0.8);
+  --primary-gradient: linear-gradient(135deg, #ff8c6b 0%, #ffd3b6 100%);
+  --sidebar-gradient: linear-gradient(180deg, #ffefe6 0%, #fff9f5 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #ffefe6 100%);
+
+  --info-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --warning-gradient: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  --danger-gradient: linear-gradient(135deg, #ff0f7b 0%, #f89b29 100%);
+  --purple-gradient: linear-gradient(135deg, #8a2be2 0%, #b224ef 100%);
+}
+
+/* Theme 5: Baby Blue */
+[data-theme="blue"] {
+  --primary-color: #07689f;
+  --secondary-color: #a2d5f2;
+  --bg-light: #f4f9fc;
+  --text-dark: #2b4450;
+  --sidebar-bg: #e6f2f9;
+  --glass-bg: rgba(240, 248, 255, 0.8);
+  --primary-gradient: linear-gradient(135deg, #07689f 0%, #1a90d9 100%);
+  --sidebar-gradient: linear-gradient(180deg, #e6f2f9 0%, #f4f9fc 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #e6f2f9 100%);
+
+  --info-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --warning-gradient: linear-gradient(135deg, #f2994a 0%, #f2c94c 100%);
+  --danger-gradient: linear-gradient(135deg, #ed213a 0%, #93291e 100%);
+  --purple-gradient: linear-gradient(135deg, #8a2be2 0%, #b224ef 100%);
+}
+
+/* Theme 6: Ocean Depths */
+[data-theme="ocean"] {
+  --primary-color: #0b3d91;
+  --secondary-color: #1a90d9;
+  --bg-light: #f0f8ff;
+  --text-dark: #1e3a5f;
+  --sidebar-bg: #e1effa;
+  --glass-bg: rgba(240, 248, 255, 0.85);
+  --primary-gradient: linear-gradient(135deg, #0b3d91 0%, #1a90d9 100%);
+  --sidebar-gradient: linear-gradient(180deg, #e1effa 0%, #f0f8ff 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #e1effa 100%);
+
+  --info-gradient: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --warning-gradient: linear-gradient(135deg, #f09819 0%, #edde5d 100%);
+  --danger-gradient: linear-gradient(135deg, #cc2b5e 0%, #753a88 100%);
+  --purple-gradient: linear-gradient(135deg, #5f2c82 0%, #49a09d 100%);
+}
+
+/* Theme 7: Sunset Glow */
+[data-theme="sunset"] {
+  --primary-color: #ff5e62;
+  --secondary-color: #ff9966;
+  --bg-light: #fff5f2;
+  --text-dark: #5c3529;
+  --sidebar-bg: #ffece6;
+  --glass-bg: rgba(255, 245, 242, 0.85);
+  --primary-gradient: linear-gradient(135deg, #ff5e62 0%, #ff9966 100%);
+  --sidebar-gradient: linear-gradient(180deg, #ffece6 0%, #fff5f2 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #ffece6 100%);
+
+  --info-gradient: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+  --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --warning-gradient: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  --danger-gradient: linear-gradient(135deg, #ff0844 0%, #ffb199 100%);
+  --purple-gradient: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
+}
+
+/* Theme 8: Forest Canopy */
+[data-theme="forest"] {
+  --primary-color: #138808;
+  --secondary-color: #8db600;
+  --bg-light: #f4fdf4;
+  --text-dark: #1b4d24;
+  --sidebar-bg: #e6f5ea;
+  --glass-bg: rgba(244, 253, 244, 0.85);
+  --primary-gradient: linear-gradient(135deg, #138808 0%, #8db600 100%);
+  --sidebar-gradient: linear-gradient(180deg, #e6f5ea 0%, #f4fdf4 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #e6f5ea 100%);
+
+  --info-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  --success-gradient: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+  --warning-gradient: linear-gradient(135deg, #cac531 0%, #f3f9a7 100%);
+  --danger-gradient: linear-gradient(135deg, #cb2d3e 0%, #ef473a 100%);
+  --purple-gradient: linear-gradient(135deg, #8a2be2 0%, #b224ef 100%);
+}
+
+/* Theme 9: Midnight Purple */
+[data-theme="midnight"] {
+  --primary-color: #4b0082;
+  --secondary-color: #8a2be2;
+  --bg-light: #f8f5fd;
+  --text-dark: #2a1b38;
+  --sidebar-bg: #f0e6fa;
+  --glass-bg: rgba(248, 245, 253, 0.85);
+  --primary-gradient: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  --sidebar-gradient: linear-gradient(180deg, #f0e6fa 0%, #f8f5fd 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #f0e6fa 100%);
+
+  --info-gradient: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
+  --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --warning-gradient: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
+  --danger-gradient: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+  --purple-gradient: linear-gradient(135deg, #4b0082 0%, #8a2be2 100%);
+}
+
+/* Theme 10: Corporate Slate */
+[data-theme="corporate"] {
+  --primary-color: #4a5568;
+  --secondary-color: #2b6cb0;
+  --bg-light: #f7fafc;
+  --text-dark: #1a202c;
+  --sidebar-bg: #edf2f7;
+  --glass-bg: rgba(247, 250, 252, 0.85);
+  --primary-gradient: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+  --sidebar-gradient: linear-gradient(180deg, #edf2f7 0%, #f7fafc 100%);
+  --header-gradient: linear-gradient(90deg, #ffffff 0%, #edf2f7 100%);
+
+  --info-gradient: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%);
+  --success-gradient: linear-gradient(135deg, #1d976c 0%, #93f9b9 100%);
+  --warning-gradient: linear-gradient(135deg, #f2c94c 0%, #f2994a 100%);
+  --danger-gradient: linear-gradient(135deg, #cb2d3e 0%, #ef473a 100%);
+  --purple-gradient: linear-gradient(135deg, #614385 0%, #516395 100%);
+}
+
+body {
+  font-family: 'Sarabun', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.main-header {
+  background: var(--header-gradient) !important;
+  border-bottom: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Override AdminLTE Sidebar */
+.main-sidebar,
+.sidebar-dark-primary {
+  background: var(--sidebar-gradient) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link,
+.brand-link .brand-text {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active {
+  background: var(--primary-gradient) !important;
+  color: var(--white) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: var(--primary-gradient);
+  border: none;
+  color: var(--white);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  filter: hue-rotate(10deg) brightness(1.05);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  filter: brightness(0.9);
+}
+
+.card-primary.card-outline {
+  border-top: 3px solid var(--secondary-color);
+}
+
+/* Glassmorphism effects for specific cards if needed */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+}
+
+.login-page {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.login-card-body {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* SweetAlert customization */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background: var(--primary-gradient) !important;
+  border: none !important;
+}
+
+/* Override Bootstrap Background Primary with Gradient */
+.bg-primary {
+  background: var(--primary-gradient) !important;
+  color: var(--white) !important;
+  border: none !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.badge-primary {
+  background: var(--primary-gradient) !important;
+  color: var(--white);
+  border: none;
+}
+
+.page-item.active .page-link {
+  background: var(--primary-gradient) !important;
+  border-color: transparent !important;
+  color: var(--white) !important;
+}
+
+/* Base Bootstrap / AdminLTE Gradient Overrides */
+.bg-info,
+.bg-info>a {
+  background: var(--info-gradient) !important;
+  color: #fff !important;
+}
+
+.bg-success,
+.bg-success>a {
+  background: var(--success-gradient) !important;
+  color: #fff !important;
+}
+
+.bg-warning,
+.bg-warning>a {
+  background: var(--warning-gradient) !important;
+  color: #fff !important;
+  /* Some themes might be bright, keep as white for consistency or rely on theme */
+}
+
+.bg-danger,
+.bg-danger>a {
+  background: var(--danger-gradient) !important;
+  color: #fff !important;
+}
+
+.bg-purple,
+.bg-purple>a {
+  background: var(--purple-gradient) !important;
+  color: #fff !important;
+}
+
+/* Dashboard Metric Cards Hover Effects */
+.small-box {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.small-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.small-box .icon>i {
+  transition: transform 0.3s ease;
+}
+
+.small-box:hover .icon>i {
+  transform: scale(1.1) rotate(5deg);
+}
