@@ -696,6 +696,7 @@ include '../includes/sidebar.php';
                         ?>
                         <div class="mb-3 text-center">
                             <img src="<?php echo getSystemLogo(); ?>" alt="Logo" style="height: 120px; object-fit: contain;">
+                            <h3 class="mt-2" style="font-weight:bold;"><?php echo htmlspecialchars(getSystemName()); ?></h3>
                         </div>
                         <h4 style="font-weight:bold; margin-bottom: 5px;">สรุปผลการประเมินผลการปฏิบัติงาน<?php echo $staff_type_title ? ' ตำแหน่ง ' . $staff_type_title : ''; ?></h4>
                         <?php if ($selected_job_id > 0): ?>
@@ -718,6 +719,7 @@ include '../includes/sidebar.php';
                     <div class="screen-header no-print text-center">
                         <div class="mb-3">
                             <img src="<?php echo getSystemLogo(); ?>" alt="Logo" style="height: 120px; object-fit: contain;">
+                            <h3 class="mt-2" style="font-weight:bold; color: #1a5276;"><?php echo htmlspecialchars(getSystemName()); ?></h3>
                         </div>
                         <h4 style="font-weight:bold; color: #1a5276;">สรุปผลการประเมินผลการปฏิบัติงาน<?php echo $staff_type_title ? ' ตำแหน่ง ' . $staff_type_title : ''; ?></h4>
                         <?php if ($selected_job_id > 0): ?>
